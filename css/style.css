@@ -4,6 +4,11 @@ body {
     background-color: #FFFFFF;
 }
 
+header{
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+
 .header-logo {
     color: #4D5AE5;
         font-family: Raleway, sans-serif;
@@ -30,10 +35,23 @@ body {
 
 .link {
     text-decoration: none;
+
+}
+
+p, h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+address {
+    font-style: normal;
 }
 
 .no-bullets{
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .header-list {
@@ -43,6 +61,13 @@ body {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+
+.container {
+    max-width: 1440px;
+        padding-left: 156px;
+        padding-right: 156px;
+        margin: 0 auto;
 }
 
 .header-list:hover{
@@ -78,7 +103,13 @@ color: #404bbf;
 
 /* SECTION1 */
 .business {
-   background-color:  #2E2F42;
+  padding-bottom: 120px; 
+}
+
+.business-container {
+background-color: #2E2F42;
+padding: 188px 472px 292px 472px;
+
 }
 
 .title-business {
@@ -88,6 +119,8 @@ color:  #FFF;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .business-btn {
@@ -99,6 +132,7 @@ color:  #FFF;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+        border-radius: 4px;
 }
 
 .business-btn:hover{
@@ -111,15 +145,20 @@ background-color: #404BBF;
 /* ----------- */
 
 /* SECTION2 */
-.visualy-hidden  {
-    
-     margin: -1px;
-     border: 0;
-     white-space: nowrap;
-     clip-path: inset(100%);
-     clip: rect (0 0 0 0);
-     overflow: hidden;
- }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect (0 0 0 0);
+    overflow: hidden;
+}
+
 
  .strategy-title {
     color: #2E2F42;
@@ -127,6 +166,8 @@ background-color: #404BBF;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 32px;
+       
  }
 
  .strategy-text {
@@ -135,6 +176,8 @@ background-color: #404BBF;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        max-width: 264px;
+        
  }
 /*---------------- */
 
@@ -142,6 +185,8 @@ background-color: #404BBF;
  
  .our-team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+   
  }
 
  .team-title {
@@ -185,6 +230,8 @@ color:  #2E2F42;
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        padding-top: 120px;
+        padding-bottom: 72px;
 }
 
 .portfolio-img {}
@@ -202,12 +249,17 @@ color:  #2E2F42;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        
 }
 
 /* ---------- */
 /* SECTION5 */
  .footer {
-    background-color:  #2E2F42;
+    
+ }
+ .footer-container {
+background-color: #2E2F42;
+padding: 140px 1020px 100px 156px;
  }
 
  .footer-logo {
@@ -219,6 +271,7 @@ color:  #2E2F42;
         
             letter-spacing: 0.03em;
             text-transform: uppercase;
+           
  }
 
  .logo-footer{
@@ -231,6 +284,7 @@ color:  #2E2F42;
     
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        
             
  }
  .footer-text {
@@ -240,5 +294,7 @@ color:  #2E2F42;
         line-height: 1.50;
        
         letter-spacing: 0.02em;
+        width: 264px;
+        padding-top: 17.5px;
  }
  /* ----------- */
