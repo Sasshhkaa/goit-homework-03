@@ -222,11 +222,11 @@ padding-top: 120px;
 list-style: none;
 display: flex;
 gap: 24px;
-width: calc((100% - 3 * 24px) / 4);
+
 }
 
 .strategy-item {
-    
+width: calc((100% - 3 * 24px) / 4);
 }
 
  .strategy-title {
@@ -351,11 +351,11 @@ padding: 120px 0 120px 0;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
-
+width: calc((100% - 48px) / 3);
 }
 
 .portfolio-border {
-width: calc((100% - 48px) / 3);
+
     
     
 }
