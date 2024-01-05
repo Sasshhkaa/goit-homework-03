@@ -12,7 +12,13 @@ header{
 .header-container {
     display: flex;
     align-items: center;
-    
+    display: flex;
+        width: 1440px;
+        height: 72px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+   
 
 }
 
@@ -55,20 +61,20 @@ p, h1, h2, h3, h4 {
     margin-bottom: 0;
 }
 
-address {
-    font-style: normal;
-    margin-left: auto;
-}
-
-.no-bullets{
-    list-style-type: none;
+.header-studio{
+list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
     display: flex;
     margin-left: 76px;
     gap: 40px;
-    
+
+}
+
+address {
+    font-style: normal;
+    margin-left: auto;
 }
 
 .header-list {
@@ -78,7 +84,7 @@ address {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        display: flex;
+       
         
         
 }
@@ -102,6 +108,9 @@ color:#404bbf;
     font-style: normal;
 }
 
+.header-address{
+}
+
 .header-contacts {
 color:  #434455;
 
@@ -111,9 +120,11 @@ font-style: normal;
     line-height: 1.5;
     
     letter-spacing: 0.02em;
+    list-style-type: none;
+    }
     
 
-}
+
 
 .header-contacts:hover{
 color: #404bbf;
@@ -131,7 +142,9 @@ color: #404bbf;
 .business-container {
 background-color: #2E2F42;
 padding: 188px 472px 292px 472px;
-
+width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
 }
 
 .title-business {
@@ -156,18 +169,20 @@ color:  #FFF;
         cursor: pointer;
         border-radius: 4px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        padding: 16px 32px;
+        border: none;
         
-           
 }
 
 .style-btn{
+display: inline-flex;
+    
+    align-items: flex-start;
+    gap: 10px;
 
-    display: inline-flex;
-        padding: 16px 32px;
-        align-items: flex-start;
-        gap: 10px;
-        border: none;
-     
+   
+    
+       
 }
 
 .business-btn:hover{
@@ -194,8 +209,16 @@ background-color: #404BBF;
     overflow: hidden;
 }
 
+.strategy-section{
+width: 1440px;
+
+}
+
+
 .strategy {
-    
+list-style: none;
+display: flex;
+gap: 24px;
 }
 
  .strategy-title {
@@ -204,7 +227,7 @@ background-color: #404BBF;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        gap: 8px;
+        padding-bottom: 8px;
         
  }
 
@@ -215,7 +238,6 @@ background-color: #404BBF;
         line-height: 1.5;
         letter-spacing: 0.02em;
         width: 264px;
-        gap: 24px;
         padding-bottom: 120px;
         
  }
@@ -225,7 +247,9 @@ background-color: #404BBF;
  
  .our-team {
     background-color: #F4F4FD;
-    
+    width: 1440px;
+        height: 732px;
+        flex-shrink: 0;
    
  }
 
@@ -237,7 +261,17 @@ background-color: #404BBF;
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+        padding-top: 120px;
+        margin-bottom: 72px;
  }
+
+.team {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+
+}
+
 .team-list {
     background-color: #FFFFFF
 }
@@ -262,6 +296,10 @@ color:  #2E2F42;
 /* -------------*/
 /* SECTION4 */
 
+.portfolio-section{
+    width: 1440px;
+}
+
 .portfolio-title {
     color:  #2E2F42;
         text-align: center;
@@ -272,6 +310,11 @@ color:  #2E2F42;
         text-transform: capitalize;
         padding-top: 120px;
         padding-bottom: 72px;
+}
+
+.portfolio {
+    list-style: none;
+
 }
 
 .portfolio-img {}
