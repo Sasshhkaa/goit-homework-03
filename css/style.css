@@ -150,7 +150,7 @@ background-color: #2E2F42;
     height: 600px;
     text-align: center;
     flex-shrink: 0;
-    padding-top: 188px;
+    padding: 188px 0;
 }
 
 .title-business {
@@ -329,7 +329,7 @@ color:  #2E2F42;
 /* SECTION4 */
 
 .portfolio-section{
-padding-top: 120px;
+padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
@@ -345,6 +345,7 @@ padding-top: 120px;
 
 .portfolio {
     list-style: none;
+    background-color: #FFF;
     display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
@@ -354,7 +355,7 @@ row-gap: 48px;
 
 .portfolio-border {
 width: calc((100% - 48px) / 3);
-    background: #FFF;
+    
     
 }
 
@@ -400,6 +401,7 @@ margin-bottom: 8px;
 /* SECTION5 */
  .footer {
     margin-top: 120px;
+    padding: 100px 0;
    
  }
  .footer-container {
