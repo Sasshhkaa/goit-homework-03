@@ -223,7 +223,7 @@ padding-top: 120px;
 list-style: none;
 display: flex;
 gap: 24px;
-width: calc((100% - 72px) / 4);
+
 }
 
 .strategy-item {
@@ -237,7 +237,7 @@ width: calc((100% - 72px) / 4);
         line-height: 1.2;
         letter-spacing: 0.02em;
         margin-bottom: 8px;
-        
+        width: calc((100% - 72px) / 4);
  }
 
  .strategy-text {
