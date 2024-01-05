@@ -89,6 +89,7 @@ address {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0;
        
         
         
@@ -174,15 +175,19 @@ color:  #FFF;
         letter-spacing: 0.04em;
         cursor: pointer;
         border-radius: 4px;
-        display: block;
-        min-width: 169px;
-        height: 56px;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        padding: 16px 32px;
-        border: none;
-        display: inline-flex;
-            align-items: flex-start;
-            gap: 10px;
+        
+}
+
+.style-button{
+display: block;
+    min-width: 169px;
+    height: 56px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+    border: none;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .business-button:hover{
