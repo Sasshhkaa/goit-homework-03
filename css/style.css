@@ -198,6 +198,11 @@ background-color: #404BBF;
 
 /* SECTION2 */
 
+.strategy-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -210,12 +215,6 @@ background-color: #404BBF;
     clip-path: inset(100%);
     clip: rect (0 0 0 0);
     overflow: hidden;
-}
-
-.strategy-section{
-padding-top: 120px;
-  padding-bottom: 120px;
-
 }
 
 
