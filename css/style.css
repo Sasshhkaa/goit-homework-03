@@ -142,7 +142,7 @@ color: #404bbf;
 
 /* SECTION1 */
 .business {
- 
+padding: 188px 0;
 }
 
 .business-container {
@@ -150,7 +150,6 @@ background-color: #2E2F42;
     height: 600px;
     text-align: center;
     flex-shrink: 0;
-    padding: 188px 0;
 }
 
 .title-business {
